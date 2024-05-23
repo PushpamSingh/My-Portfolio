@@ -1,0 +1,166 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+.card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background: var(--ternary);
+    max-height: 1280px;
+    padding-bottom: 4rem ;
+    padding-top: 4rem;
+
+}
+.card-section h1{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+}
+.card-section  span{
+    color: var(--primary);
+}
+.card-section .card-section-p{
+    text-align: center;
+    font-size: 20px;
+    color: var(--dark);
+    font-family: Poppins,sans-serif;
+    margin-bottom: 6rem;
+}
+.card-section .myskill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1280px;
+    max-height: 800px;
+    /* padding: 2rem; */
+    gap: 3rem;
+}
+.myskill .card{
+    display: flex;
+    flex-direction: column;
+    /* border: solid black; */
+    max-width: 300px;
+    /* max-height: 200px; */
+    position: relative;
+    background: var(--pure);
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+.myskill .card img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dsa-card #Dsacard{
+    height: 70px;
+}
+.myskill .card h1{
+    margin-top: 2rem;
+}
+.myskill .card p{
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+}
+
+.myskill .card:hover{
+        color: var(--pure);
+        transition: all 300ms linear 0s;
+        cursor: pointer;
+}
+.myskill .card1:hover{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.myskill .card2:hover{
+    background-color: #c72925;
+    background-image: linear-gradient(160deg, #c72925 0%, #17059e 100%);
+    
+}
+.myskill .dsa-card:hover{
+    background-color: #13b8f0;
+    background-image: linear-gradient(43deg, #13b8f0 0%, #b3a81f 46%, #ff6200 100%);
+    
+}
+.myskill .card4:hover{
+    background-color: #877712;
+    background-image: linear-gradient(160deg, #877712 0%, #e6ce90 100%);
+    
+}
+.myskill .card5:hover{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.myskill .card6:hover{
+    background-color: #605656;
+    background-image: linear-gradient(180deg, #605656 0%, #2a49b5 50%, #bf1717 100%);
+    
+}
+
+
+
+@media (max-width: 660px){
+    .card-section .myskill{
+        gap: 1rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .myskill .card{
+        margin-bottom: 2rem;
+    }
+
+}
+
+.freelancer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--pure);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./image/camera.png);
+    clip-path: polygon(0 0,100% 0,100% 100%,67% 80%,0 100%);
+    padding-bottom: 6.5rem;
+}
+.freelancer h1{
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-top: 5rem;
+}
+.freelancer p{
+    font-size: 24px;
+    font-family: "Lato";
+}
+.freelancer .Cv-buttton2{
+    color: var(--dark);
+    background: var(--primary);
+    /* border: transparent; */
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-color: var(--primary);
+    
+}
+.freelancer .Cv-buttton2:hover{
+    border: solid var(--primary);
+    background: transparent;
+    color: var(--pure);
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    /* padding: 1.5rem 1.5rem; */
+}

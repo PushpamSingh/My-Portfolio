@@ -1,0 +1,102 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+.About-myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 6rem;
+
+}
+.aboutme-section .right a img{
+    height: 24px;
+    width: 24px;
+}
+.aboutme-section .right{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.aboutme-section .img img{
+    height: 450px;
+    width: 350px;
+}
+.aboutme-section .right h1 {
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.aboutme-section .right span{
+    color: var(--primary);
+}
+.aboutme-section .right h6{
+    font-size: 1rem;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+}
+.aboutme-section .right p{
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: Poppins,sans-serif;
+}
+.aboutme-section .right div{
+    display: flex;
+    gap: 2rem;
+    max-height: 40px;
+}
+.aboutme-section .right div a{
+    border-radius: 50%;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    border: solid 1px;
+}
+.aboutme-section .right div .a1{
+   border-color: blue;
+}
+.aboutme-section .right div .a2{
+    border-color: rgb(22, 22, 100);
+}
+.aboutme-section .right div .a3{
+   border-color:red;
+}
+.aboutme-section .right div .a4{
+    border-color: black;
+}
+.aboutme-section .right div .a5{
+    border-color: rgb(54, 54, 124);
+}
+.aboutme-section .right div a:hover{
+    background: transparent;
+    border: solid 2px;
+    transition: all 200ms linear 0s;
+    box-shadow: 5px 5px 12px black;
+}
+
+@media (max-width: 870px){
+
+    .aboutme-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .aboutme-section .right{
+        text-align: center;
+    }
+    .aboutme-section .right div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
