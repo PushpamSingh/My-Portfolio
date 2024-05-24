@@ -77,7 +77,7 @@
     box-shadow: 3px 3px 30px var(--primary),inset 3px 3px 30px var(--primary);
     cursor: pointer;
 }
-@media (max-width: 865px){
+@media (max-width: 960px){
     .contact-card{
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
