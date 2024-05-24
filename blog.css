@@ -86,11 +86,11 @@
 }
 @media (max-width: 735px) {
     .myblog .blog-card{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media (max-width: 430px){
-    .myblog .blog-card{
         grid-template-columns: repeat(1,1fr);
     }
 }
+/* @media (max-width: 430px){
+    .myblog .blog-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+} */
