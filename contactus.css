@@ -58,64 +58,6 @@
     text-decoration: none;
     color: var(--pure);
 }
-form{
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1.2rem;
-    width: 350px;
-
-}
-#name{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    padding: 0.4rem;
-    background: var(--ternary);
-}
-#name:hover{
-    background: var(--light);
-    box-shadow: 3px 3px 13px var(--ternary), -3px -3px 13px var(--ternary);
-    transition: all 300ms linear 0s;
-}
-#email{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    padding: 0.4rem;
-    background: var(--ternary);
-    border: none;
-}
-#email:hover{
-    background: var(--light);
-    box-shadow: 3px 3px 13px var(--ternary), -3px -3px 13px var(--ternary);
-    transition: all 300ms linear 0s;
-}
-#subject{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 0.4rem;
-    background: var(--ternary);
-}
-#subject:hover{
-    background: var(--light);
-    box-shadow: 3px 3px 13px var(--ternary), -3px -3px 13px var(--ternary);
-    transition: all 300ms linear 0s;
-}
-#massage{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 0.4rem;
-    background: var(--ternary);
-}
-#massage:hover{
-    background: var(--light);
-    box-shadow: 3px 3px 13px var(--ternary), -3px -3px 13px var(--ternary);
-    transition: all 300ms linear 0s;
-}
-.contact-us .form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .contact-us a .submit-button{
     padding: 1rem 4rem;
     margin-top: 3rem;
@@ -134,22 +76,6 @@ form{
     transition: all 300ms linear 0s;
     box-shadow: 3px 3px 30px var(--primary),inset 3px 3px 30px var(--primary);
     cursor: pointer;
-}
-/* @media (max-width:500px) {
-    body{
-        max-width: 400px;
-    }
-} */
-
-@media (min-width: 730px){
-    form{
-        width: 700px;
-    }
-}
-@media (max-width: 390px){
-    form{
-        width: 370px;
-    }
 }
 @media (max-width: 865px){
     .contact-card{
