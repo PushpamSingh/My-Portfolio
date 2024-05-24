@@ -69,7 +69,7 @@ nav{
 
 }
 .hero-left img{
-        width: 500px;
+        max-width: 500px;
         position: relative;
         top: 10%;
       
