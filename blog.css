@@ -36,6 +36,7 @@
     grid-template-columns: repeat(3,1fr);
      place-items: center;
      padding-bottom: 3rem;
+     gap: 2rem;
 }
 .blog-card .card1{
     /* border: 1px solid red; */
@@ -82,4 +83,14 @@
     overflow: hidden;
 
 
+}
+@media (max-width: 735px) {
+    .myblog .blog-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 430px){
+    .myblog .blog-card{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
