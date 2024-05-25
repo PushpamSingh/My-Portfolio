@@ -12,12 +12,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body{
+    max-width: 100%;
+}
 header{
+    max-width: 100%;
     background-color: var(--secondary);
     clip-path: polygon(0 0,100% 0,100% 100%,70% 90%,0 100%);
 }
 nav{
-    max-width: 1152px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
