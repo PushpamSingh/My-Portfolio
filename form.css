@@ -8,7 +8,7 @@
 }
 .form{
     background: var(--ternary);
-    max-width: 100vw;
+    max-width: 100%;
     /* display: flex;
     justify-content: center; */
     display: grid;
@@ -101,7 +101,8 @@ form{
 }
 @media (max-width: 430px){
     form{
-        margin-right: 5rem;
+        margin-right: -2rem;
+        width: 50%;
     }
     .form .submit-button{
         margin-left: -13rem;
@@ -114,6 +115,11 @@ form{
         left: 25px;
     }
 }
+/* @media (min-width: 432px) and (max-width: 512) {
+    form{
+        margin-right: -30rem;
+    }
+} */
 @media (max-width:367px) {
     .body{
         max-width: 100%;
