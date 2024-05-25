@@ -96,12 +96,12 @@ form{
 }
 @media (max-width: 515px) {
     form{
-        margin-left: -9rem;
+        margin-left: -18rem;
     }
 }
 @media (max-width: 430px){
     form{
-        margin-right: 13rem;
+        margin-right: 5rem;
     }
     .form .submit-button{
         margin-left: -13rem;
