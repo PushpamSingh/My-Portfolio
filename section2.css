@@ -164,3 +164,9 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     transition: all 300ms linear 0s;
     /* padding: 1.5rem 1.5rem; */
 }
+
+@media (max-width: 770px){
+    .freelancer{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 90%, 0 100%);
+    }
+}
