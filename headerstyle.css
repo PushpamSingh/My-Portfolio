@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     padding: 2rem;
+    background: var(--secondary);
 }
 .nav-left{
     display: flex;
